@@ -278,7 +278,7 @@
     <string name="phone_flip_action_dismiss">Anruf ablehnen</string>
 
     <!-- Soft reboot -->
-    <string name="reboot_soft">Sanfter Neustart</string>
+    <string name="reboot_soft">Software-Neustart</string>
 
     <!-- Solid black Holo background -->
     <string name="pref_holo_bg_solid_black_title">Schwarzer Hintergrund</string>
@@ -473,7 +473,7 @@
     <string name="hwkey_action_recent_apps">Zuletzt verwendete Apps anzeigen</string>
 
     <!-- HW Key Action: Home long-press -->
-    <string name="hwkey_home_longpress_dialog_title">Aktion bei langem Druck auf die Home-Taste</string>
+    <string name="hwkey_home_longpress_dialog_title">Aktion bei langem Drücken auf die Home-Taste</string>
 
     <!-- HW Key Action: Launch cutom app -->
     <string name="hwkey_action_custom_app">Starte benutzerdefinierte App 1</string>
@@ -561,8 +561,8 @@
     <string name="pref_mobile_data_slow2g_disable_summary">Warnung bei langsamer Datengeschwindigkeit im 2G-Modus deaktivieren</string>
 
     <!-- Follow stock battery color -->
-    <string name="pref_sbcolor_follow_stock_battery_title">Follow stock battery color</string>
-    <string name="pref_sbcolor_follow_stock_battery_summary">Makes statusbar clock, percentage and circle battery use the color of stock battery icon. Applies when icon coloring is off.</string>
+    <string name="pref_sbcolor_follow_stock_battery_title">Verwende Standard Akku-Farbe</string>
+    <string name="pref_sbcolor_follow_stock_battery_summary">Verwende die Standardfarbe der Akkuanzeige für die Statusleisten-Uhr, die Prozentanzeige und den Akku-Kreis. Wird angewendet, wenn Symbolfärbung ausgeschaltet ist.</string>
 
     <!-- Network mode tile mode (2G/2G+3G/3G or 2G/2G+3G) -->
     <string name="pref_network_mode_tile_mode_title">Netzmodus-Kachel anpassen</string>
@@ -590,7 +590,7 @@
     <string name="pie_controls_enabled_expanded_navbar">Wenn erweiterter Desktop die Navigationsleiste versteckt</string>
 
     <!-- Icon coloring: preserve stock battery icon -->
-    <string name="pref_statusbar_color_skip_battery_title">Standard Batterie-Symbol beibehalten</string>
+    <string name="pref_statusbar_color_skip_battery_title">Standard Akku-Symbol beibehalten</string>
     <string name="pref_statusbar_color_skip_battery_summary">Verwenden, falls das Standard Batterie-Symbol durch eine Drittanwendung ersetzt wurde</string>
 
     <!-- Unplug turns on screen -->
@@ -662,34 +662,34 @@
     <string name="service_background_processes"><xliff:g id="memory">%1$s</xliff:g> frei</string>
     <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
     <string name="service_foreground_processes"><xliff:g id="memory">%1$s</xliff:g> verwendet</string>
-    <string name="pref_rambar_title">Recent tasks RAM bar</string>
+    <string name="pref_rambar_title">Task-Manager RAM-Leiste</string>
     <string name="rambar_off">Aus</string>
     <string name="rambar_top">Oben</string>
     <string name="rambar_bottom">Unten</string>
 
     <!-- HW Key actions for recents button -->
-    <string name="hwkey_recents_singletap_dialog_title">Recents key single-tap action</string>
-    <string name="hwkey_recents_longpress_dialog_title">Recents key long-press action</string>
+    <string name="hwkey_recents_singletap_dialog_title">Aktion bei einfachem Drücken der Task-Manager-Taste</string>
+    <string name="hwkey_recents_longpress_dialog_title">Aktion bei langem Drücken der Task-Manager-Taste</string>
 
     <!-- Lockscreen battery arc -->
     <string name="pref_lockscreen_battery_arc_title">Zeige Akku-Bogen</string>
     <string name="pref_lockscreen_battery_arc_summary">Zeigt einen Akkustatus-Bogen, der um den Entsperr-Ring angeordnet ist</string>
 
     <!-- HW Key Actions: toggle torch -->
-    <string name="hwkey_action_torch">Toggle torch</string>
+    <string name="hwkey_action_torch">Taschenlampe an/ausschalten</string>
 
     <!-- HW Key Actions: toggle torch on home key long-press while on lockscreen -->
     <string name="pref_hwkey_home_longpress_keyguard_title">Taschenlampe bei langem Druck auf die Home-Taste</string>
     <string name="pref_hwkey_home_longpress_keyguard_summary">Schaltet Taschenlampe An/Aus während das Gerät gesperrt ist. Screen has to be turned on if device lacks native wake by home key support.</string>
 
     <!-- Volume panel: Show expanded -->
-    <string name="pref_volume_panel_autoexpand_title">Automatisches expandieren</string>
+    <string name="pref_volume_panel_autoexpand_title">Automatisch ausklappen</string>
 
     <!-- HW Key Actions: Preference screen arrangement -->
     <string name="pref_cat_hwkey_menu_title">Menü-Taste</string>
     <string name="pref_cat_hwkey_home_title">Home-Taste</string>
     <string name="pref_cat_hwkey_back_title">Zurück-Taste</string>
-    <string name="pref_cat_hwkey_recents_title">Recents key</string>
+    <string name="pref_cat_hwkey_recents_title">Task-Manager-Taste</string>
     <string name="pref_cat_hwkey_volume_title">Lautstärketasten</string>
     <string name="pref_cat_hwkey_actions_others">Andere Einstellungen</string>
     <string name="pref_hwkey_longpress_title">Aktion bei langem Druck</string>
@@ -700,9 +700,9 @@
     <string name="pref_hwkey_doubletap_disable_title">Doppelklick deaktivieren</string>
 
     <!-- Color mode for statusbar signal icons -->
-    <string name="pref_statusbar_signal_color_mode_title">Signal color mode</string>
-    <string name="signal_color_mode_gb">Use GravityBox icons (with signal level support)</string>
-    <string name="signal_color_mode_stock">Use stock icons (without signal level support)</string>
+    <string name="pref_statusbar_signal_color_mode_title">Empfangsbalken Farbe</string>
+    <string name="signal_color_mode_gb">Verwende GravityBox-Symbole (mit Empfangslevel-Unterstützung)</string>
+    <string name="signal_color_mode_stock">Verwende Standard-Symbole (ohne Empfangsleel-Unterstützung)</string>
     <string name="signal_color_mode_disabled">Farbe nicht anwenden</string>
 
     <!-- Application launcher -->
@@ -728,7 +728,7 @@
     <string name="pref_pie_color_bg_title">Hintergrundfarbe</string>
     <string name="pref_pie_color_fg_title">Vordergrundfarbe</string>
     <string name="pref_pie_color_outline_title">Konturfarbe</string>
-    <string name="pref_pie_color_selected_title">Key selected color</string>
+    <string name="pref_pie_color_selected_title">Farbe des ausgewählten Pie</string>
     <string name="pref_pie_color_text_title">Textfarbe</string>
     <string name="pref_pie_color_reset_title">Farben zurücksetzen</string>
 
@@ -767,9 +767,29 @@
     <string name="tm_mode_full">Beide</string>
  
     <!-- Secondary signal icon color for MTK Dual SIMs -->
-    <string name="pref_statusbar_icon_color_secondary_title">Secondary signal color</string>
-    <string name="pref_statusbar_icon_color_secondary_summary">Overrides stock orange signal icon</string>
-    <string name="pref_statusbar_data_activity_color_secondary_title">Secondary data activity color</string>
-    <string name="pref_statusbar_data_activity_color_secondary_summary">Sets color for secondary data activity indicators</string>
+    <string name="pref_statusbar_icon_color_secondary_title">Zweiter Empfangsbalken Farbe</string>
+    <string name="pref_statusbar_icon_color_secondary_summary">Überschreibe den orangen Standard Empfangsbalken</string>
+    <string name="pref_statusbar_data_activity_color_secondary_title">Zweite Farbe für Aktivität der Datenverbindung</string>
+    <string name="pref_statusbar_data_activity_color_secondary_summary">Wählt die Farbe für die zweiten Indikatoren der Aktivität der Datenverbindung</string>
+    
+     <!-- Status icon style -->
+    <string name="pref_status_icon_style_title">Statusleisten-Symbol-Style</string>
+    <string name="pref_status_icon_style_summary">Wird auf Symbole in der Statusleiste angewendet, wie lautlos, Vibration, Alarm, usw.</string>
+    <string name="icon_style_jb">JellyBean</string>
+    <string name="icon_style_kk">KitKat</string>
+
+    <!-- HW Key Actions: Back double-tap -->
+    <string name="hwkey_back_doubletap_dialog_title">Aktion beim zweifach Drücken der Zurück-Taste</string>
+
+    <!-- HW Key Actions: Home and Back actions -->
+    <string name="hwkey_action_home">Gehe zum Startbildschirm</string>
+    <string name="hwkey_action_back">Gehe zurück</string>
+
+    <!-- QS Tile Style -->
+    <string name="pref_qs_tile_style_title">Kachel-Style</string>
+    <string name="pref_qs_tile_style_summary">Wird nur bei den Kacheln von GravityBox angewendet (hat keinen Effekt bei den "stock" Kacheln)</string>
+
+    <!-- Clear all recents bottom margin -->
+    <string name="pref_recent_clear_margin_bottom_title">Unteren Rand einstellen </string>
 	
 </resources>
